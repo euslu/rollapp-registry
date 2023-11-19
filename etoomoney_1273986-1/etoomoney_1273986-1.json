@@ -1,0 +1,33 @@
+{
+    "chainId": "etoomoney_1273986-1",
+    "chainName": “moneytalks",
+    "rpc": "http://62.171.147.32:26657",
+    "rest": "http://62.171.147.32:1317,
+    "bech32Prefix": "ethm",
+    "currencies": [
+      {
+        "displayDenom": "FCK",
+        "baseDenom": "uFCK",
+        "decimals": 18,
+        "logo": "/logos/1.png",
+        "type": "main"
+      }
+    ],
+    "coinType": 60,
+    "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+    "website": "",
+    "logo": "/logos/1.png",
+    "ibc": {
+      "hubChannel": "channel-7393",
+      "channel": "channel-0",
+      "timeout": 172800000
+    },
+    "evm": {
+      "chainId": "0x137082",
+      "rpc": http://62.171.147.32:8545
+    },
+    "type": "RollApp",
+    "da": "Celestia",
+    "description": "",
+    "analytics": true
+  }
